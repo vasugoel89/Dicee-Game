@@ -17,3 +17,8 @@ else if (randomno2 > randomno1){
 else{
     document.querySelector("h1").innerHTML = "It's a Draw"
 }
+
+function playload(){
+    var button = document.getElementById("button");
+    button.onclick();
+}
